@@ -1,1 +1,23 @@
 /* styles go here */
+
+fieldset {
+  margin-bottom: 20px;
+  /* height: 163px; */
+}
+
+.form-field {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.form-field1 {
+  display: block;
+}
+
+[type="number"]::placeholder {
+  color: rgb(0, 0, 0);
+}
+
+.input__time {
+  position: relative;
+}
