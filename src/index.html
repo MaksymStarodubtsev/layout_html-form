@@ -11,7 +11,11 @@
   </head>
 
   <body>
-    <form action="https://mate-academy-form-lesson.herokuapp.com/create-application" method="get">
+    <form
+      action="https://mate-academy-form-lesson.herokuapp.com/create-application"
+      method="get"
+      onsubmit="onSubmit()"
+    >
 
 
       <fieldset class="first">
@@ -19,43 +23,48 @@
         <label for="surname" class="form-field">
           Surname:
           <input
-          type="text"
-          id="surname"
-          required
-          name="surname">
+            type="text"
+            id="surname"
+            required
+            name="surname"
+          >
         </label>
         <label for="name" class="form-field">
           Name:
           <input
-          type="text"
-          id="name"
-          required
-          name="name">
+            type="text"
+            id="name"
+            required
+            name="name"
+          >
         </label>
         <label for="peopleOld" class="form-field">
           How old are You?
           <input
-          type="number"
-          id="peopleOld"
-          min="1"
-          max="100"
-          value="12"
-          name="age">
+            type="number"
+            id="peopleOld"
+            min="1"
+            max="100"
+            value="12"
+            name="age"
+          >
         </label>
         <label for="full_date" class="form-field">
           Full date of birth:
           <input
-          type="date"
-          id="full_date"
-          class="input__time">
+            type="date"
+            id="full_date"
+            class="input__time"
+          >
         </label>
         <label for="acceptTerm" class="form-field1">
           I accept the term of the agreement
           <input
-          type="checkbox"
-          id="acceptTerm"
-          required
-          name="accept">
+            type="checkbox"
+            id="acceptTerm"
+            required
+            name="accept"
+          >
         </label>
       </fieldset>
 
@@ -64,19 +73,21 @@
         <label for="email" class="form-field">
           E-mail:
           <input
-          type="email"
-          id="email"
-          placeholder="email@example.com"
-          required>
+            type="email"
+            id="email"
+            placeholder="email@example.com"
+            required
+          >
         </label>
         <label for="password" class="form-field1">
           Password:
           <input
-          type="password"
-          id="password"
-          required
-          minlength="3"
-          maxlength="7">
+            type="password"
+            id="password"
+            required
+            minlength="3"
+            maxlength="7"
+          >
         </label>
       </fieldset>
 
@@ -86,38 +97,43 @@
           Do you love cats?
           <label for="petsyes">
             <input
-            type="radio"
-            id="petsyes"
-            name="pets"
-            value="yes">
+              type="radio"
+              id="petsyes"
+              name="pets"
+              value="yes"
+            >
             Yes
           </label>
           <label for="petsno">
             <input
-            type="radio"
-            id="petsno"
-            name="pets"
-            value="no">
+              type="radio"
+              id="petsno"
+              name="pets"
+              value="no"
+            >
             No
           </label>
         </div>
         <label for="favorite_color" class="form-field">
           What is your favorite color?
           <input
-          type="color"
-          id="favorite_color">
+            type="color"
+            id="favorite_color"
+          >
         </label>
         <label for="timebed" class="form-field">
           What time do you go to bed?
           <input class="input__time"
-          id="timebed"
-          type="time">
+            id="timebed"
+            type="time"
+          >
         </label>
         <label for="favorite_brand" class="form-field">
           What are your favorite brand of cars?
           <select name="cars"
-          id="favorite_brand"
-          multiple>
+            id="favorite_brand"
+            multiple
+          >
             <option value="bmw">BMW</option>
             <option value="audi">Audi</option>
             <option value="lada">Lada</option>
@@ -127,9 +143,10 @@
         <label for="rate_work" class="form-field1">
           How do you rate our work?
           <input
-          type="range"
-          id="rate_work"
-          value="0">
+            type="range"
+            id="rate_work"
+            value="0"
+          >
         </label>
       </fieldset>
 
@@ -138,17 +155,19 @@
         <label for="comments" class="form-field">
           Comments:
           <textarea
-          type="text-area"
-          id="comments"
-          rows="2"
-          cols="20">
+            type="text-area"
+            id="comments"
+            rows="2"
+            cols="20"
+          >
           </textarea>
         </label>
         <label for="recomnd" class="form-field1">
           Would you recommend us?
           <select
-          name="recomends_us"
-          id="recomnd">
+            name="recomends_us"
+            id="recomnd"
+          >
             <option value="yes" name="recomend">yes</option>
             <option value="no" name="recomend">no</option>
           </select>
