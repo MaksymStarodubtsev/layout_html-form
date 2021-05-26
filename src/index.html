@@ -17,8 +17,7 @@
       onsubmit="onSubmit()"
     >
 
-
-      <fieldset class="first">
+      <fieldset class="container">
         <legend>Personal information</legend>
         <label for="surname" class="form-field">
           Surname:
@@ -41,6 +40,7 @@
         <label for="peopleOld" class="form-field">
           How old are You?
           <input
+            class="old_value"
             type="number"
             id="peopleOld"
             min="1"
@@ -57,7 +57,7 @@
             class="input__time"
           >
         </label>
-        <label for="acceptTerm" class="form-field1">
+        <label for="acceptTerm" class="last_label">
           I accept the term of the agreement
           <input
             type="checkbox"
@@ -68,7 +68,7 @@
         </label>
       </fieldset>
 
-      <fieldset>
+      <fieldset class="container">
         <legend>Registration</legend>
         <label for="email" class="form-field">
           E-mail:
@@ -79,7 +79,7 @@
             required
           >
         </label>
-        <label for="password" class="form-field1">
+        <label for="password" class="last_label">
           Password:
           <input
             type="password"
@@ -91,7 +91,7 @@
         </label>
       </fieldset>
 
-      <fieldset>
+      <fieldset class="container">
         <legend>An interesting fact about you!</legend>
         <div class="form-field">
           Do you love cats?
@@ -140,7 +140,7 @@
             <option value=""></option>
           </select>
         </label>
-        <label for="rate_work" class="form-field1">
+        <label for="rate_work" class="last_label">
           How do you rate our work?
           <input
             type="range"
@@ -150,7 +150,7 @@
         </label>
       </fieldset>
 
-      <fieldset>
+      <fieldset class="container">
         <legend>Aditional info:</legend>
         <label for="comments" class="form-field">
           Comments:
@@ -162,7 +162,7 @@
           >
           </textarea>
         </label>
-        <label for="recomnd" class="form-field1">
+        <label for="recomnd" class="last_label">
           Would you recommend us?
           <select
             name="recomends_us"

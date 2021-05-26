@@ -1,6 +1,6 @@
 /* styles go here */
 
-fieldset {
+.container {
   margin-bottom: 20px;
 }
 
@@ -9,11 +9,11 @@ fieldset {
   margin-bottom: 10px;
 }
 
-.form-field1 {
+.last_label {
   display: block;
 }
 
-[type="number"]::placeholder {
+.old_value::placeholder {
   color: rgb(0, 0, 0);
 }
 
